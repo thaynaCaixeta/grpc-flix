@@ -10,4 +10,5 @@ enum Genre {
 	ACTION = 1;
 	CRIME = 2;
 	COMEDY = 4;
+	HORROR = 5;
 }
