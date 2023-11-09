@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS movie;
+CREATE TABLE user AS SELECT * FROM CSVREAD('classpath:user.csv');
