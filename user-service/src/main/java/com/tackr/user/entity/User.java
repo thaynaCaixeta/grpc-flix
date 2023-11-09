@@ -1,13 +1,16 @@
 package com.tackr.user.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import lombok.Data;
 import lombok.ToString;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Data
 @Entity
 @ToString
+@Table(name = "\"user\"")
 public class User {
 
     @Id
@@ -16,7 +19,5 @@ public class User {
     private String name;
 
     private String genre;
-
-    private User user;
-
 }
+
